@@ -48,13 +48,13 @@ var REMOTE_URLS = {
 
 switch(process.platform){
     case "linux":
-        REMOTE_URLS.adb = "https://dl.google.com/android/repository/platform-tools_r29.0.6-linux.zip";
+        REMOTE_URLS.adb = "https://dl.google.com/android/repository/platform-tools-latest-linux.zip";
         break;
     case "win32":
-        REMOTE_URLS.adb = "https://dl.google.com/android/repository/platform-tools_r29.0.6-windows.zip";
+        REMOTE_URLS.adb = "https://dl.google.com/android/repository/platform-tools-latest-windows.zip";
         break;
     case "darwin":
-        REMOTE_URLS.adb = "https://dl.google.com/android/repository/platform-tools_r29.0.6-darwin.zip";
+        REMOTE_URLS.adb = "https://dl.google.com/android/repository/platform-tools-latest-darwin.zip";
         break;
 }
 
